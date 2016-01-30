@@ -231,17 +231,17 @@ var talaria = (function (P) {
             '    Unable to retrieve comments for this post.' +
             '  </div>' +
             '  <div class="talaria-comment-count' + (commentsHidden ? '' : ' hide') + '">' +
-            '    <a id="talaria-show-' + id + '" href="' + url + '">' + (ccount === 0 ? 'Be the first to comment' : (ccount + ' comment' + (ccount === 1 ? '' : 's'))) + '</a>' +
+            '    <a id="talaria-show-' + id + '" href="' + url + '" target ="_blank">' + (ccount === 0 ? 'Be the first to comment' : (ccount + ' comment' + (ccount === 1 ? '' : 's'))) + '</a>' +
             '  </div>' +
             '  <div class="talaria-comment-list-wrapper' + (commentsHidden ? ' hide' : '') + '">' +
             '    <div class="talaria-header">' +
-            '      <h3>Comments <small>via <a class="talaria-last-commit-href" href="' + url + '">github</a></small></h3>' +
+            '      <h3>Comments <small>via <a class="talaria-last-commit-href" href="' + url + '" target ="_blank">github</a></small></h3>' +
             '    </div>' +
             '    <div class="talaria-comment-list" id="talaria-comment-list-' + id + '">' +
             '      <!-- comments are dynamically added here -->' +
             '    </div>' +
             '    <div class="talaria-align-right">' +
-            '      <a id="talaria-add-' + id + '" class="talaria-add-comment-button" href="' + url + '">' +
+            '      <a id="talaria-add-' + id + '" class="talaria-add-comment-button" href="' + url + '" target ="_blank">' +
             '        <button type="submit">Add a Comment</button>' +
             '      </a>' +
             '    </div>' +
