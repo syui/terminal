@@ -152,7 +152,7 @@
     float: left;
 }
 .terminal, .cmd {
-    font-family: courier,Andale Mono,AndaleMono,monospace !important;
+    font-family: Andale Mono,AndaleMono,courier,monospace;
     color: #aaa;
     background-color: #000;
     font-size: 12px;

@@ -360,7 +360,7 @@ body {
 
 
 #body {
-    font-family: courier,Andale Mono,AndaleMono,monospace !important;
+    font-family: Andale Mono,AndaleMono,courier,monospace;
     line-height: 1em;
     font-size:13px;
     float: left;
