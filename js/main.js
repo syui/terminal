@@ -286,7 +286,6 @@ var about = "\
 	Commands: \
 	\n\t[[b;#268bd2;]mbahack home]\
 	\n\t[[b;#268bd2;]mbahack about]\
-	\n\t[[b;#268bd2;]mbahack link]\
 	\n\t[[b;#268bd2;]mbahack system]\
 	\n\t[[b;#268bd2;]mbahack nyancat]\
   ";
@@ -296,17 +295,6 @@ var about = "\
       \n[[b;#d33682;]========= link ==========]\
       \nicon : https://avatars3.githubusercontent.com/u/1867108\
       \nblog : https://syui.github.io\
-      \nslack : https://syui.slack.com\
-      \ntwitter : https://twitter.com/syui__\
-      \ngithub : https://github.com/syui\
-      \ngitlab : https://gitlab.com/u/syui\
-      \nqiita : https://qiita.com/syui\
-      \nlingr : http://lingr.com/syui\
-      \ndocker : https://hub.docker.com/u/syui\
-      \nwercker : https://app.wercker.com/syui\
-      \nstackshare : https://stackshare.io/syui\
-      \nasciinema : https://asciinema.org/~syui\
-      \nteratail : https://teratail.com/users/syui\
   ";
   var rsvp = "\
       \nNyan Cat made with HTML5+CSS3 (and JavaScript :T).\
