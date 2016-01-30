@@ -237,7 +237,7 @@ var talaria = (function (P) {
             '      <!-- comments are dynamically added here -->' +
             '    </div>' +
             '    <div class="talaria-align-right">' +
-            '      <a id="talaria-add-' + id + '" class="talaria-add-comment-button" href="' + url + '">' +
+            '      <a id="talaria-add-' + id + '" class="talaria-add-comment-button" href="' + url + '" target="_blank">' +
             '        <button type="submit">Add a Comment</button>' +
             '      </a>' +
             '    </div>' +
