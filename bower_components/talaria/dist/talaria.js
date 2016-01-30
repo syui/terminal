@@ -230,7 +230,6 @@ var talaria = (function (P) {
             '  <div class="talaria-load-error hide">' +
             '    Unable to retrieve comments for this post.' +
             '  </div>' +
-            '  <div class="talaria-comment-list-wrapper' + (commentsHidden ? ' ' : '') + '">' +
             '    <div class="talaria-header">' +
             '    </div>' +
             '    <div class="talaria-comment-list" id="talaria-comment-list-' + id + '">' +
@@ -241,7 +240,6 @@ var talaria = (function (P) {
             '        <button type="submit">Add a Comment</button>' +
             '      </a>' +
             '    </div>' +
-            '  </div>' +
             '</div>';
         return wrapper;
     };
