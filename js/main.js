@@ -222,7 +222,7 @@ var about = "\
 	\n ";
     var pacman_install_message_post = "";
     var pacman_start_message_post = "\n\
-	\nYou can try again using [[b;#d33682;]pacman -Q].\
+	\nYou can try again using [[b;#d33682;]pacman -S mbahack].\
 	\n \
 	\nPress [[b;#859900;]enter (↩)] to install the pacman on this terminal.\
 	\n";
@@ -238,7 +238,7 @@ var about = "\
     var prompt = "[[b;#d33682;]root]@[[b;#6c71c4;]user] ~$ ";
     var nyan_command= prompt + 'curl -sL git.io/nyancat | bash';
     var days_left = Math.round((new Date('2016 01 01') - new Date())/(1000*60*60*24));
-    var mbahack_url = "https://mba-hack.github.io";
+    var mbahack_url = "https://syui.github.io/terminal";
     var rsvp_url = "https://mba-hack.github.io/nyancat";
     var venue_address = "\
 	\nAccess to the personal site\
@@ -341,9 +341,9 @@ var about = "\
   var pacman_list_full = 'ls\
       \nifconfig\
       \nsystem\
+      \nzsh\
   ';
-  var print_pacman = 'Rubypacmans is a sophisticated package manager for Ruby.  This is a\nbasic help message containing pointers to more information.\n\n  Usage:\n    pacman -v\n    pacman command [arguments...] [options...]\n\n  Examples:\n    pacman install rake\n    pacman list --local\n    pacman build package.pacmanspec\n    pacman help install\n\n  Further help:\n    pacman help commands            list all \'pacman\' commands\n    pacman help examples            show some examples of usage\n    pacman help platforms           show information about platforms\n    pacman help <COMMAND>           show help on COMMAND\n                                   (e.g. \'pacman help install\')\n    pacman server                   present a web page at\n                                 http://localhost:8808/\n                                 with info about installed pacmans\n  Further information:\n    http://rubypacmans.rubyforge.org';
-
+var print_pacman = pacman_start_message_post;
     function print_slowly(term, paragraph, callback) {
       var foo, i, lines;
       lines = paragraph.split("\n");
@@ -547,12 +547,10 @@ var about = "\
         term.history().clear();
       },
       completion: function(term, string, callback){
-        callback(['pacman -S mbahack',
-          'mbahack system',
-          'mbahack home',
-          'mbahack link',
-          'mbahack nyancat',
-          'mbahack about']);
+        callback(['ifconfig',
+          'system',
+          'ls',
+          'pacman']);
       },
       tabcompletion: true
     });
