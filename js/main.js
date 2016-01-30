@@ -7,7 +7,7 @@ $.get("//ipinfo.io", function (response) {
 	Hostname = response.hostname;
 	Loc = response.loc;
 	Country = response.country;
-	ifconfig = "{ hint : 'js,cookie = true' }\n{ hint : 'addon = false' }\nYou :\n\tIP : " + IP + ",\n\tHostname : " + Hostname + ",\n\tCountry : " + Country + ",\n\tLoc : " + Loc; 
+	ifconfig = "{ hint : 'js,cookie = true' }\n{ hint : 'addon = false' }\n\nYou :\n\tIP : " + IP + ",\n\tHostname : " + Hostname + ",\n\tCountry : " + Country + ",\n\tLoc : " + Loc; 
 	username = Country + ":" + IP;
 	prompt_origin = "[[b;#d33682;]root]@[[b;#6c71c4;]"+username+"] ~$ ";
 if ( navigator.userAgent.indexOf('iPhone') > 0 ){
@@ -248,6 +248,7 @@ var about = "\
 	\n[[b;#d33682;]========= system ==========]\
   ";
   var system_hint = "\
+  	\n\
   	\n{ hint : 'js,cookie = true' }\
   	\n{ hint : 'addon = false' }\
   ";
