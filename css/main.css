@@ -360,9 +360,8 @@ body {
 
 
 #body {
-    /* font-family: Andale Mono, monospace;  */
+    font-family: Andale Mono,AndaleMono,monospace;
     line-height: 1em;
-    font-family: "Helvetica Neue", Helvetica, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
     font-size:13px;
     float: left;
     width: 100%;
