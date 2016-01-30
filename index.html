@@ -1,0 +1,23 @@
+---
+title: mba-hack
+layout: base
+---
+{% for post in paginator.posts %}
+<article>
+  <header>
+    <h2 class="no-margin-bot">
+      <a href="{{ post.url }}" class="permalink"></a># {{ post.title }}
+    </h2>
+    {% if post.tags and post.tags != empty %}
+    <small>Tagged: {% for tag in post.tags %}
+      <a href="/tags/{{tag}}.html">{{tag}}</a>{% case forloop.rindex0 %}, {% when 1 %} and {% when 0 %}{% else %}, {% endcase %}
+      {% endfor %}</small>
+    {% endif %}
+  </header>
+  {{ post.content }}
+</article>
+{% endfor %}
+
+{% if paginator.total_posts > site.paginate %}
+
+{% endif %}

@@ -1,0 +1,30 @@
+title: 'ハッカーしか解けないパズル!?'
+url: https://syui.github.io/terminal
+include: [".htaccess", ".htpasswd"]
+
+gems:
+  - jekyll-redirect-from
+
+tagcloud:
+    post_limit: 1
+
+author:
+    name: syui
+    github: https://github.com/syui
+
+# config
+permalink: /:year/:month/:day/:title
+exclude: ["CNAME", "config.rb", "Rakefile"]
+markdown: kramdown
+paginate: 0
+paginate_path: "xe4muteighiizi9U:num"
+port: 8001
+highlighter: pygments
+
+# origin
+github:
+        url: https://github.com/syui/terminal
+ssl:
+        url: https://syui.github.io/terminal
+nossl:
+        url: http://syui.github.io/terminal
