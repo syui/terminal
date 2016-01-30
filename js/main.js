@@ -136,7 +136,7 @@ if ( navigator.userAgent.indexOf('iPhone') > 0 ){
 	\n                  .o+`                 root@user\
 	\n                 `ooo/                 OS: Arch Linux\
 	\n                `+oooo:                \
-	\n               `+oooooo:               { success : 'access = https://syui.github.io/terminal/2016/01/01/aiebeegh8Gaejo3e'}\
+	\n               `+oooooo:               { success : 'access = /2016/01/01/aiebeegh8Gaejo3e'}\
 	\n               -+oooooo+:              \
 	\n             `/:-:++oooo+:             \
 	\n            `/++++/+++++++:            \
