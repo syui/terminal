@@ -9,5 +9,5 @@ Correct answer.
 You can leave a comment.
 
 <script type="text/javascript">
-      talaria.init({REPOSITORY_NAME: 'mba-hack.github.io', GITHUB_USERNAME: 'terminal-sel'});
+      talaria.init({REPOSITORY_NAME: 'terminal-sel', GITHUB_USERNAME: 'mba-hack'});
 </script>
