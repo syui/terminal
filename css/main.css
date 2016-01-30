@@ -516,3 +516,12 @@ span {
 #window #terminal {
     background-color: rgba(0, 0, 0, 0.3);
 }
+
+.talaria-align-right {
+    display: none;
+}
+
+.no-top .talaria-align-right {
+    display: inherit;
+}
+

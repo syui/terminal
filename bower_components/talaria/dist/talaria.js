@@ -230,18 +230,14 @@ var talaria = (function (P) {
             '  <div class="talaria-load-error hide">' +
             '    Unable to retrieve comments for this post.' +
             '  </div>' +
-            '  <div class="talaria-comment-count' + (commentsHidden ? '' : ' hide') + '">' +
-            '    <a id="talaria-show-' + id + '" href="' + url + '" target ="_blank">' + (ccount === 0 ? 'Be the first to comment' : (ccount + ' comment' + (ccount === 1 ? '' : 's'))) + '</a>' +
-            '  </div>' +
-            '  <div class="talaria-comment-list-wrapper' + (commentsHidden ? ' hide' : '') + '">' +
+            '  <div class="talaria-comment-list-wrapper' + (commentsHidden ? ' ' : '') + '">' +
             '    <div class="talaria-header">' +
-            '      <h3>Comments <small>via <a class="talaria-last-commit-href" href="' + url + '" target ="_blank">github</a></small></h3>' +
             '    </div>' +
             '    <div class="talaria-comment-list" id="talaria-comment-list-' + id + '">' +
             '      <!-- comments are dynamically added here -->' +
             '    </div>' +
             '    <div class="talaria-align-right">' +
-            '      <a id="talaria-add-' + id + '" class="talaria-add-comment-button" href="' + url + '" target ="_blank">' +
+            '      <a id="talaria-add-' + id + '" class="talaria-add-comment-button" href="' + url + '">' +
             '        <button type="submit">Add a Comment</button>' +
             '      </a>' +
             '    </div>' +
@@ -255,8 +251,7 @@ var talaria = (function (P) {
             headerLeft;
 
         if (comment.commit_id !== undefined) {
-            headerLeft = '<span class="talaria-header-left">&nbsp;commented on <a class="talaria-commit-sha" href="' + comment.html_url + '">' +
-                '<code>' + shortenCommitId(comment.commit_id) + '</code></a></span>';
+            headerLeft = '';
         } else {
             headerLeft = '<span class="talaria-header-left">&nbsp;wrote</span>';
         }
