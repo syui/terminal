@@ -7,7 +7,7 @@ $.get("//ipinfo.io", function (response) {
 	Hostname = response.hostname;
 	Loc = response.loc;
 	Country = response.country;
-	ifconfig = "You :\n\tIP : " + IP + ",\n\tHostname : " + Hostname + ",\n\tCountry : " + Country + ",\n\tLoc : " + Loc; 
+	ifconfig = "{ hint : 'js,cookie=on, addon=off' }\nYou :\n\tIP : " + IP + ",\n\tHostname : " + Hostname + ",\n\tCountry : " + Country + ",\n\tLoc : " + Loc; 
 	username = Country + ":" + IP;
 	prompt_origin = "[[b;#d33682;]root]@[[b;#6c71c4;]"+username+"] ~$ ";
 if ( navigator.userAgent.indexOf('iPhone') > 0 ){
@@ -136,7 +136,7 @@ if ( navigator.userAgent.indexOf('iPhone') > 0 ){
 	\n                  .o+`                 root@user\
 	\n                 `ooo/                 OS: Arch Linux\
 	\n                `+oooo:                \
-	\n               `+oooooo:               { success : 'access = https://mba-hack.github.io/2016/01/01/aiebeegh8Gaejo3e'}\
+	\n               `+oooooo:               { success : 'access = https://syui.github.io/terminal/2016/01/01/aiebeegh8Gaejo3e'}\
 	\n               -+oooooo+:              \
 	\n             `/:-:++oooo+:             \
 	\n            `/++++/+++++++:            \
@@ -245,7 +245,11 @@ var about = "\
     ";
 
   var os_pre = "\
+  	\n{ hint : 'js,cookie=on, addon=off' }\
 	\n[[b;#d33682;]========= system ==========]\
+  ";
+  var system_hint = "\
+  	\n{ hint : 'js,cookie=on, addon=off' }\
   ";
   var jai_weds_prerita = prompt + 'toilet Please access on Arch Linux' + '\
 \n                                                                             \
@@ -337,8 +341,6 @@ var about = "\
   var pacman_list_full = 'ls\
       \nifconfig\
       \nsystem\
-      \ntoilet\
-      \nwhich\
   ';
   var print_pacman = 'Rubypacmans is a sophisticated package manager for Ruby.  This is a\nbasic help message containing pointers to more information.\n\n  Usage:\n    pacman -v\n    pacman command [arguments...] [options...]\n\n  Examples:\n    pacman install rake\n    pacman list --local\n    pacman build package.pacmanspec\n    pacman help install\n\n  Further help:\n    pacman help commands            list all \'pacman\' commands\n    pacman help examples            show some examples of usage\n    pacman help platforms           show information about platforms\n    pacman help <COMMAND>           show help on COMMAND\n                                   (e.g. \'pacman help install\')\n    pacman server                   present a web page at\n                                 http://localhost:8808/\n                                 with info about installed pacmans\n  Further information:\n    http://rubypacmans.rubyforge.org';
 
@@ -497,7 +499,7 @@ var about = "\
       } else if (/link/.test(input)) {
         term.echo(link);
       } else if (/system/.test(input)) {
-        term.echo("[[;#b58900;]"+ganesha+ "]");
+        term.echo("[[;#b58900;]"+ganesha+ "]"+system_hint);
       } else if (/prompt/.test(input)) {
         term.echo(prompt_origin);
       } else if (/ifconfig/.test(input)) {
