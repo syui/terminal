@@ -1,5 +1,5 @@
 title: 'ハッカーにしか解けないパズル?'
-url: 
+url: https://syui.github.io/terminal
 include: [".htaccess", ".htpasswd"]
 
 gems:
