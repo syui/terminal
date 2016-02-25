@@ -2,6 +2,7 @@
 which made it child's play to make it look good */
 
 body { 
+	/*
     background: #151617 url("../img/archlinux.png") no-repeat scroll center center / cover;
     background-attachment: fixed;  
     -webkit-background-size: cover;
@@ -11,6 +12,7 @@ body {
     color: #444;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 1.5em;
+    */
 }
 
 /* FINDER WINDOW */
@@ -525,3 +527,6 @@ span {
     display: inherit;
 }
 
+.footer-color{
+height:14px;
+}
