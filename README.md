@@ -16,5 +16,7 @@ comment : [talaria](https://github.com/m2w/talaria)
 
 icon : [octicons](https://github.com/github/octicons)
 
+color : [descartes](https://github.com/jonhmchan/descartes)
+
 ref : [wedding](https://github.com/jaipandya/wedding)
 
