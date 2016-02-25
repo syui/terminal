@@ -19,8 +19,8 @@ markdown: kramdown
 paginate: 1
 paginate_path: "xe4muteighiizi9U:num"
 port: 8001
-highlighter: pygments
-
+#highlighter: pygments
+highlighter: rouge
 # origin
 github:
         url: https://github.com/syui/terminal
